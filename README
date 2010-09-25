@@ -1,0 +1,3 @@
+This is an initial attempt at creating a simple blog application.  The blog is
+meant to run in the Tornado web server (http://www.tornadoweb.org/), and use
+Riak (http://riak.basho.com/) for data storage.
