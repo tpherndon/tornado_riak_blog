@@ -4,7 +4,7 @@ import tornado.web
 from riak.riak_object import RiakObject
 from riak.bucket import RiakBucket
 
-from riak_blog_api import RiakTornadoClient
+from riak_client import RiakTornadoClient
 
 class RiakHandler(tornado.web.RequestHandler):
     def initialize(self, **settings):
